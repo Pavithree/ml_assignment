@@ -72,8 +72,8 @@ y\textsubscript{i} : computed output \\
 \end{figure}
 \begin{itemize}
 \item The error will be the summation of differences squared between y\textsubscript{i} (computed value) and \^y\textsubscript{i} (actual value).We compute how far away is our predicted value from actual value.
-\item The difference is squared in order to avoid positive terms cancelling out the negative terms.
-\item The SSE loss function is differentiable at all points(we can differentiate the function and equate it to 0 to find the optimum point) and gives an advantage for mathematical optimisations.
+\item Positive terms cancelling out negative terms is avoided by squaring the difference.
+\item We can differentiate SSE loss  function at all points which serves a greater advantage for mathematical optimisations( we obtain optimum point by differentiating the function and equating it to zero)
 \end{itemize}
 \subsection{Mean Square Error(MSE)}
 \[ MSE = \sum_{i=1}^{n}\frac{1}{n} (y_i-\hat{y_i} )^2 \]
@@ -87,14 +87,14 @@ averages the various errors
 \[ RMSE =\sqrt{ \sum_{i=1}^{n}\frac{1}{n} (y_i-\hat{y_i} )^2} \]
 \begin{itemize}
 \item RMSE is the standard deviation of residuals from the best fit line (regression). It gives us an overview of how concentrated these residual points are around the line of best fit.
-\item RMSE satisfies the triangle inequality required for a distance function metric.
+\item The triangle inequality is satisfied by RMSE, which is required for a distance function metric
 \item RMSE penalises large errors.
 \end{itemize}
 \subsection{Mean Absolute Error (MAE)}  
 \[ MAE = \sum_{i=1}^{n}\frac{1}{n} |y_i-\hat{y_i}| \]
 \begin{itemize}
-\item MAE may not necessarily penalise large errors. It doesn't reflect the performance of the model when dealing with large error values.
-\item MAE is less sensitive to outliers.
+\item The models performance is not accurately reflected by MAE metric when dealing with large error values, thus it does not necessarily penalise large errors.
+\item When the dataset is small and we have large number of outliers, a loss function which is  less sensitive to outliers like MAE could be chosen.
 \end{itemize}
 \section{Research tasks \hfill {20 points}}
 .

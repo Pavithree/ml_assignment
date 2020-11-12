@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.12)  12 NOV 2020 18:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.12)  12 NOV 2020 19:43
 entering extended mode
 **./assignment_template.tex
 (assignment_template.tex
@@ -1925,11 +1925,11 @@ Package logreq Info: Writing requests to 'assignment_template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39579 strings out of 479799
- 751876 string characters out of 2863984
+ 39577 strings out of 479799
+ 751854 string characters out of 2863984
  1610648 words of memory out of 3000000
  55896 multiletter control sequences out of 15000+200000
- 551656 words of font info for 91 fonts, out of 3000000 for 9000
+ 551593 words of font info for 90 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  119i,16n,124p,10638b,802s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Pavithre B Shetty/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-
@@ -1953,7 +1953,7 @@ MiKTeX/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Users/Pavithre B Shetty/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx2074.pfb><C:/Users/P
 avithre B Shetty/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt
 1095.pfb>
-Output written on assignment_template.pdf (6 pages, 383259 bytes).
+Output written on assignment_template.pdf (6 pages, 383241 bytes).
 PDF statistics:
  154 PDF objects out of 1000 (max. 8388607)
  20 named destinations out of 1000 (max. 500000)
