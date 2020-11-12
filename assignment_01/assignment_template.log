@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.12)  12 NOV 2020 03:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.12)  12 NOV 2020 18:14
 entering extended mode
 **./assignment_template.tex
 (assignment_template.tex
@@ -1868,36 +1868,55 @@ Package pdftex.def Info: resources/logo_west_small.png  used on input line 62.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hfill' on input line 62.
 
+
+Package nag Warning: Command \centerline is TeX. 
+(nag)                Use \centering or center environment instead on input line
+ 69.
+
+<./resources/sse.png, id=29, 545.8794pt x 409.53pt>
+File: ./resources/sse.png Graphic file (type png)
+<use ./resources/sse.png>
+Package pdftex.def Info: ./resources/sse.png  used on input line 69.
+(pdftex.def)             Requested size: 272.93903pt x 204.7645pt.
 File: resources/logo_west_small.png Graphic file (type png)
 <use resources/logo_west_small.png>
-Package pdftex.def Info: resources/logo_west_small.png  used on input line 78.
+Package pdftex.def Info: resources/logo_west_small.png  used on input line 79.
 (pdftex.def)             Requested size: 51.21504pt x 10.63553pt.
 [3
 
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 78.
-
+ <./resources/sse.png>]
 File: resources/logo_west_small.png Graphic file (type png)
 <use resources/logo_west_small.png>
-Package pdftex.def Info: resources/logo_west_small.png  used on input line 86.
+Package pdftex.def Info: resources/logo_west_small.png  used on input line 99.
 (pdftex.def)             Requested size: 51.21504pt x 10.63553pt.
-[4
-
-]
+ [4]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 86.
+(hyperref)                removing `\hfill' on input line 99.
 
 File: resources/logo_west_small.png Graphic file (type png)
 <use resources/logo_west_small.png>
-Package pdftex.def Info: resources/logo_west_small.png  used on input line 97.
+Package pdftex.def Info: resources/logo_west_small.png  used on input line 107.
+
 (pdftex.def)             Requested size: 51.21504pt x 10.63553pt.
 [5
 
 ]
-No complaints by nag.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hfill' on input line 107.
+
+File: resources/logo_west_small.png Graphic file (type png)
+<use resources/logo_west_small.png>
+Package pdftex.def Info: resources/logo_west_small.png  used on input line 118.
+
+(pdftex.def)             Requested size: 51.21504pt x 10.63553pt.
+[6
+
+]
+
+Package nag Warning: 1 complaints in total.
+
 (assignment_template.aux)
 Package rerunfilecheck Info: File `assignment_template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1906,34 +1925,37 @@ Package logreq Info: Writing requests to 'assignment_template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39540 strings out of 479799
- 751297 string characters out of 2863984
- 1607567 words of memory out of 3000000
- 55874 multiletter control sequences out of 15000+200000
- 550280 words of font info for 85 fonts, out of 3000000 for 9000
+ 39579 strings out of 479799
+ 751876 string characters out of 2863984
+ 1610648 words of memory out of 3000000
+ 55896 multiletter control sequences out of 15000+200000
+ 551656 words of font info for 91 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 119i,15n,124p,10638b,802s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 119i,16n,124p,10638b,802s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Pavithre B Shetty/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-
-super/cm-super-t1.enc}<C:/Users/Pavithre B Shetty/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Pavithre B Shetty/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Pavit
-hre B Shetty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8
-.pfb><C:/Users/Pavithre B Shetty/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb><C:/Users/Pavithre B Shetty/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Pavithre B Shetty/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Pavi
-thre B Shetty/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm080
+super/cm-super-ts1.enc}{C:/Users/Pavithre B Shetty/AppData/Local/Programs/MiKTe
+X/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Users/Pavithre B Shetty/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Pavit
+hre B Shetty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi1
 0.pfb><C:/Users/Pavithre B Shetty/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/cm-super/sfrm1095.pfb><C:/Users/Pavithre B Shetty/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Users/Pavithre B Shetty/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1200.pfb><C:/Users/Pav
-ithre B Shetty/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx14
-40.pfb><C:/Users/Pavithre B Shetty/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/cm-super/sfsx2074.pfb><C:/Users/Pavithre B Shetty/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on assignment_template.pdf (5 pages, 297598 bytes).
+lic/amsfonts/cm/cmmi8.pfb><C:/Users/Pavithre B Shetty/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Pavithre B Shetty/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Pavi
+thre B Shetty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb><C:/Users/Pavithre B Shetty/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/cm-super/sfbx1095.pfb><C:/Users/Pavithre B Shetty/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Users/Pavithre B Shetty/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/Pa
+vithre B Shetty/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1
+440.pfb><C:/Users/Pavithre B Shetty/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/cm-super/sfsx1200.pfb><C:/Users/Pavithre B Shetty/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Users/Pavithre B Shetty/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx2074.pfb><C:/Users/P
+avithre B Shetty/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt
+1095.pfb>
+Output written on assignment_template.pdf (6 pages, 383259 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
- 13914 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 154 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 14967 words of extra memory for PDF output out of 17280 (max. 10000000)
 

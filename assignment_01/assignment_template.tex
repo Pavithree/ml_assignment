@@ -62,19 +62,40 @@ handwritten solutions. \\
 \section{Error Calculation \hfill{12 points}}
 You are given many computed outputs y\textsubscript{i} and desired outcomes \^y\textsubscript{i}.Provide the following error measures in regards to y\textsubscript{i} and \^y\textsubscript{i} by writing down their formula and a short description about their characteristics, i.e., the behavior in regard to the difference between computed and desired outcome.
 \subsection{Sum of Square Error (SSE)}
-\[ SSE = \sum_{n=1}^{n} (\hat{y_i} - y_i)^2 \]
+\[ SSE = \sum_{i=1}^{n} (y_i-\hat{y_i} )^2 \]
 y\textsubscript{i} : computed output \\
 \^y\textsubscript{i} : desired output
-
-\begin{description}
-\item[$\bullet$]The error will be the summation of differences squared between y\textsubscript{i} (computed value) and \^y\textsubscript{i} (actual value).
-\item[$\bullet$] The difference is squared in order to avoid positive terms cancelling out the negative terms
+\begin{figure}[htbp]
+\centerline{\includegraphics[scale=.5]{./resources/sse.png}}
+\caption{sum of square error.}
+\label{fig}
+\end{figure}
+\begin{itemize}
+\item The error will be the summation of differences squared between y\textsubscript{i} (computed value) and \^y\textsubscript{i} (actual value).We compute how far away is our predicted value from actual value.
+\item The difference is squared in order to avoid positive terms cancelling out the negative terms.
+\item The SSE loss function is differentiable at all points(we can differentiate the function and equate it to 0 to find the optimum point) and gives an advantage for mathematical optimisations.
+\end{itemize}
+\subsection{Mean Square Error(MSE)}
+\[ MSE = \sum_{i=1}^{n}\frac{1}{n} (y_i-\hat{y_i} )^2 \]
+\begin{itemize}
+	\item MSE is the quadratic loss function, which squares and subsequently
+averages the various errors
+	\item In MSE, squaring the error gives more weight to larger errors than smaller ones and thereby penalising them.
   
-\end{description}
-
-
-    
-
+\end{itemize}
+\subsection{ Root Mean Square Error (MSE)}
+\[ RMSE =\sqrt{ \sum_{i=1}^{n}\frac{1}{n} (y_i-\hat{y_i} )^2} \]
+\begin{itemize}
+\item RMSE is the standard deviation of residuals from the best fit line (regression). It gives us an overview of how concentrated these residual points are around the line of best fit.
+\item RMSE satisfies the triangle inequality required for a distance function metric.
+\item RMSE penalises large errors.
+\end{itemize}
+\subsection{Mean Absolute Error (MAE)}  
+\[ MAE = \sum_{i=1}^{n}\frac{1}{n} |y_i-\hat{y_i}| \]
+\begin{itemize}
+\item MAE may not necessarily penalise large errors. It doesn't reflect the performance of the model when dealing with large error values.
+\item MAE is less sensitive to outliers.
+\end{itemize}
 \section{Research tasks \hfill {20 points}}
 .
 \subsection{Collision}
